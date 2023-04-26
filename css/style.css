@@ -124,7 +124,7 @@ body {
 .profile-icons {
   display: flex;
   align-items: center;
-  margin-right: 25px;
+
 }
 
 .profile-icons img {
@@ -260,3 +260,50 @@ body {
   margin-top: 15px;
   margin-bottom: 10px;
 }
+
+
+.main-content{
+  color: #fff;
+  
+}
+
+.main-content .history-titles{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 5%;
+  position: sticky;
+  top: 75px;
+  z-index: 101;
+  background-color: transparent;
+  width: fit-content;
+  
+
+}
+
+.main-content .history-titles .history-titles-btn{
+
+  background-color: #222222;
+  padding: 10px 20px;
+  border: 0;
+  outline: none;
+  color: #999999;
+  margin-right: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color .2s ease;
+  text-transform: capitalize;
+
+  display: grid;
+  grid-template-columns: max-content;
+ 
+}
+
+
+.main-content .history-titles .history-titles-btn:hover,
+.main-content .history-titles .history-titles-btn:active{
+  color: #777777;
+}
+
